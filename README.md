@@ -10,8 +10,8 @@ arp-scanコマンドをインストールする
 ## 使用例
 
 ```
-chmod +x lan-arp-scan.sh
-./lan-arp-scan.sh
+chmod +x device-lan-scan.sh
+./device-lan-scan.sh
 ```
 ## 出力例
 
