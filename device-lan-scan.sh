@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-NW="192.168.11"
+NW="192.168"
 INTERFACE="en0"
 
 lsarp=`arp-scan -I ${INTERFACE} -l | grep ${NW} | sort -V | grep -v Interface`
